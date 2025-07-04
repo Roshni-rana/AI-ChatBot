@@ -34,6 +34,4 @@ class SearchBarWithFilter extends StatelessWidget {
       ),
     );
   }
-
-  //  https://github.com/Roshni-rana/AI-ChatBot.git
 }
