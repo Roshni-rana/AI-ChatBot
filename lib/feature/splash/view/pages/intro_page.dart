@@ -41,7 +41,6 @@ class IntroPage extends StatelessWidget {
               ],
             ),
           ),
-
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 50),
             child: RichText(

@@ -9,7 +9,15 @@ final GoRouter router = GoRouter(
   navigatorKey: navigatorKey,
   routes: [
     _parent(AppRoutes.splash),
-    _parent(AppRoutes.intro, routes: [_child(AppRoutes.createAccountPage)]),
+    _parent(
+      AppRoutes.intro,
+      routes: [
+        _child(
+          AppRoutes.createAccountPage,
+          routes: [_child(AppRoutes.homePage)],
+        ),
+      ],
+    ),
   ],
 );
 
