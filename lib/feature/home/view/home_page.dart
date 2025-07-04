@@ -63,7 +63,13 @@ class HomePage extends StatelessWidget {
                       ],
                     ),
                     const Spacer(),
-                    const Icon(Icons.grid_view_rounded, color: Colors.black),
+                    GestureDetector(
+                      onTap: () {},
+                      child: const Icon(
+                        Icons.grid_view_rounded,
+                        color: Colors.black,
+                      ),
+                    ),
                   ],
                 ),
               ),
