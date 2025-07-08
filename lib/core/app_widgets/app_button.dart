@@ -1,5 +1,5 @@
+import 'package:AIChatBot/core/app_theme/app_colors.dart';
 import 'package:flutter/material.dart';
-import 'package:practices/core/app_theme/app_colors.dart';
 
 class AppButton extends StatelessWidget {
   String? text;

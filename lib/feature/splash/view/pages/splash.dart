@@ -1,12 +1,11 @@
+import 'package:AIChatBot/core/app_theme/app_colors.dart';
+import 'package:AIChatBot/feature/splash/bloc/splash_bloc.dart';
+import 'package:AIChatBot/feature/splash/view/widget/bounce_image_widget.dart';
+import 'package:AIChatBot/generated/assets.dart';
+import 'package:AIChatBot/routes/route.dart' show AppRoutes;
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
-import 'package:practices/core/app_theme/app_colors.dart';
-import 'package:practices/feature/splash/splash/splash_bloc.dart';
-import 'package:practices/feature/splash/view/widget/bounce_image_widget.dart';
-import 'package:practices/generated/assets.dart';
-
-import '../../../../core/routes/route.dart';
 
 class SplashScreen extends StatelessWidget {
   const SplashScreen({super.key});

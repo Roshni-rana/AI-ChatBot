@@ -1,10 +1,10 @@
+import 'package:AIChatBot/core/app_theme/app_colors.dart';
+import 'package:AIChatBot/core/app_widgets/app_button.dart';
+import 'package:AIChatBot/generated/assets.dart';
+import 'package:AIChatBot/routes/route.dart';
+import 'package:AIChatBot/utilies/sizedbox_extension.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:practices/core/app_theme/app_colors.dart';
-import 'package:practices/core/app_widgets/app_button.dart';
-import 'package:practices/core/routes/route.dart';
-import 'package:practices/generated/assets.dart';
-import 'package:practices/utilies/sizedbox_extension.dart';
 
 class IntroPage extends StatelessWidget {
   const IntroPage({super.key});

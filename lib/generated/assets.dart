@@ -4,10 +4,16 @@ class Assets {
 
   static const String iconsAiHandicons = 'assets/icons/ai_handicons.png';
   static const String iconsAiImage = 'assets/icons/aiImage.png';
+  static const String iconsAppicon = 'assets/icons/appicon.png';
   static const String iconsBackground = 'assets/icons/background.png';
   static const String iconsBannerImage = 'assets/icons/banner_image.png';
+  static const String iconsBottomIcon = 'assets/icons/bottomIcon.png';
+  static const String iconsClockicons = 'assets/icons/Clockicons.png';
   static const String iconsGoogle = 'assets/icons/google.png';
+  static const String iconsHomeicon = 'assets/icons/Homeicon.png';
   static const String iconsMemoji = 'assets/icons/memoji.png';
+  static const String iconsNewsIcons = 'assets/icons/newsIcons.png';
+  static const String iconsSettingsicons = 'assets/icons/Settingsicons.png';
   static const String iconsSplashscreen = 'assets/icons/splashscreen.png';
   static const String poppinsPoppinsBlack = 'assets/Poppins/Poppins-Black.ttf';
   static const String poppinsPoppinsBlackItalic =

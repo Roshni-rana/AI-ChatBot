@@ -1,8 +1,8 @@
 import 'dart:async';
 
+import 'package:AIChatBot/routes/route.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:practices/core/routes/route.dart';
 
 final navigatorKey = GlobalKey<NavigatorState>();
 final GoRouter router = GoRouter(
@@ -14,7 +14,7 @@ final GoRouter router = GoRouter(
       routes: [
         _child(
           AppRoutes.createAccountPage,
-          routes: [_child(AppRoutes.homePage)],
+          routes: [_child(AppRoutes.bottomNavBarPage)],
         ),
       ],
     ),

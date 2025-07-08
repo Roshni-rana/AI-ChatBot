@@ -1,11 +1,13 @@
+import 'package:AIChatBot/feature/auth/view/create_account_page.dart';
+import 'package:AIChatBot/feature/bottom_nav_bar/view/bottom_nav_bar_page.dart';
+import 'package:AIChatBot/feature/home/view/home_page.dart';
+import 'package:AIChatBot/feature/splash/view/pages/intro_page.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:practices/feature/auth/view/create_account_page.dart';
-import 'package:practices/feature/home/view/home_page.dart';
-import 'package:practices/feature/splash/view/pages/intro_page.dart';
-import 'package:practices/feature/splash/view/pages/splash.dart';
 
-enum AppRoutes { splash, intro, createAccountPage, homePage }
+import '../../feature/splash/view/pages/splash.dart' show SplashScreen;
+
+enum AppRoutes { splash, intro, createAccountPage, homePage, bottomNavBarPage }
 
 extension AppRoutesExtension on AppRoutes {
   String get route {
@@ -47,8 +49,10 @@ extension AppRoutesExtension on AppRoutes {
         return const IntroPage();
       case AppRoutes.createAccountPage:
         return const CreateAccountPage();
+      case AppRoutes.bottomNavBarPage:
+        return const BottomNavBarPage();
       case AppRoutes.homePage:
-        return const HomePage(name: '', email: '', photoUrl: '');
+        return const HomePage();
       default:
         return const SizedBox();
     }

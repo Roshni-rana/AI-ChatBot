@@ -1,19 +1,10 @@
+import 'package:AIChatBot/feature/home/widgets/search_bar_with_filter.dart';
+import 'package:AIChatBot/generated/assets.dart';
+import 'package:AIChatBot/utilies/sizedbox_extension.dart';
 import 'package:flutter/material.dart';
-import 'package:practices/feature/home/widgets/search_bar_with_filter.dart';
-import 'package:practices/generated/assets.dart';
-import 'package:practices/utilies/sizedbox_extension.dart';
 
 class HomePage extends StatelessWidget {
-  final String name;
-  final String email;
-  final String photoUrl;
-
-  const HomePage({
-    super.key,
-    required this.name,
-    required this.email,
-    required this.photoUrl,
-  });
+  const HomePage({super.key});
 
   @override
   Widget build(BuildContext context) {
